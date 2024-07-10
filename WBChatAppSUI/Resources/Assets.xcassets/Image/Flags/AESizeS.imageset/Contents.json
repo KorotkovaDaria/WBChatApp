@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Code=AE, Английский=United Arab Emirates, Русский=Объединенные Арабские Эмираты, Ratio=1_1, Rounded=Semi-Rounded, Size=S.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
