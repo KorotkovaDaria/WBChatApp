@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     
     var body: some View {
-        WalkthroughView()
+        ContentView_TabView()
     }
 }
 
@@ -19,3 +19,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
