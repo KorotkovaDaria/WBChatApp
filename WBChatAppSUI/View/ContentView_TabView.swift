@@ -22,4 +22,8 @@ struct ContentView_TabView: View {
     }
 }
 
-
+struct ContentView_TabView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView_TabView()
+    }
+}
