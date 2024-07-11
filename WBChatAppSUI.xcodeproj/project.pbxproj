@@ -105,6 +105,9 @@
 		4E90A8782C3FCE640098D2F7 /* VerificationCodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerificationCodeView.swift; sourceTree = "<group>"; };
 		4E90A8792C3FCE640098D2F7 /* WalkthroughView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkthroughView.swift; sourceTree = "<group>"; };
 		4E90A87F2C3FCF190098D2F7 /* BuildingMaterialsFactory.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BuildingMaterialsFactory.playground; sourceTree = "<group>"; };
+		4E90A8872C3FF4F20098D2F7 /* Set.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Set.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		4E90A8882C4001680098D2F7 /* Dictionary.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Dictionary.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		4E90A8892C4008A50098D2F7 /* Hash.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Hash.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +152,7 @@
 		4E2426032C104DEF00FDCED4 /* WBChatAppSUI */ = {
 			isa = PBXGroup;
 			children = (
+				4E90A8802C3FCFB60098D2F7 /* HW12 */,
 				4E648E252C3E85EC00A73619 /* HW7 */,
 				4E90A87E2C3FCF190098D2F7 /* HW6 */,
 				4E648E182C3E7C1800A73619 /* HW5 */,
@@ -313,6 +317,16 @@
 				4E90A87F2C3FCF190098D2F7 /* BuildingMaterialsFactory.playground */,
 			);
 			path = HW6;
+			sourceTree = "<group>";
+		};
+		4E90A8802C3FCFB60098D2F7 /* HW12 */ = {
+			isa = PBXGroup;
+			children = (
+				4E90A8892C4008A50098D2F7 /* Hash.playground */,
+				4E90A8872C3FF4F20098D2F7 /* Set.playground */,
+				4E90A8882C4001680098D2F7 /* Dictionary.playground */,
+			);
+			path = HW12;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
