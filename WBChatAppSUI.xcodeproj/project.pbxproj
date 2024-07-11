@@ -34,12 +34,12 @@
 		4E648E102C3E7AF700A73619 /* WBChatWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4E648E002C3E7AF500A73619 /* WBChatWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		4E648E152C3E7B3900A73619 /* WBChatWidgetEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E648E142C3E7B3900A73619 /* WBChatWidgetEntryView.swift */; };
 		4E648E282C3E85EC00A73619 /* StringIntepolationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E648E262C3E85EC00A73619 /* StringIntepolationView.swift */; };
-		4E648E3F2C3E8C3300A73619 /* UserDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E648E3B2C3E8C3300A73619 /* UserDetailsView.swift */; };
-		4E648E402C3E8C3300A73619 /* VerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E648E3C2C3E8C3300A73619 /* VerificationView.swift */; };
-		4E648E412C3E8C3300A73619 /* VerificationCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E648E3D2C3E8C3300A73619 /* VerificationCodeView.swift */; };
-		4E648E422C3E8C3300A73619 /* WalkthroughView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E648E3E2C3E8C3300A73619 /* WalkthroughView.swift */; };
 		4E648E442C3E8C6900A73619 /* CountriesCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E648E432C3E8C6900A73619 /* CountriesCode.swift */; };
 		4E648E462C3E8DF900A73619 /* String + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E648E452C3E8DF900A73619 /* String + Ext.swift */; };
+		4E90A87A2C3FCE640098D2F7 /* UserDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E90A8762C3FCE640098D2F7 /* UserDetailsView.swift */; };
+		4E90A87B2C3FCE640098D2F7 /* VerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E90A8772C3FCE640098D2F7 /* VerificationView.swift */; };
+		4E90A87C2C3FCE640098D2F7 /* VerificationCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E90A8782C3FCE640098D2F7 /* VerificationCodeView.swift */; };
+		4E90A87D2C3FCE640098D2F7 /* WalkthroughView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E90A8792C3FCE640098D2F7 /* WalkthroughView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,14 +97,14 @@
 		4E648E0D2C3E7AF700A73619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E648E142C3E7B3900A73619 /* WBChatWidgetEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBChatWidgetEntryView.swift; sourceTree = "<group>"; };
 		4E648E192C3E7C1800A73619 /* Bank1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Bank1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		4E648E212C3E821200A73619 /* Building.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Building.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		4E648E262C3E85EC00A73619 /* StringIntepolationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringIntepolationView.swift; sourceTree = "<group>"; };
-		4E648E3B2C3E8C3300A73619 /* UserDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailsView.swift; sourceTree = "<group>"; };
-		4E648E3C2C3E8C3300A73619 /* VerificationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerificationView.swift; sourceTree = "<group>"; };
-		4E648E3D2C3E8C3300A73619 /* VerificationCodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerificationCodeView.swift; sourceTree = "<group>"; };
-		4E648E3E2C3E8C3300A73619 /* WalkthroughView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkthroughView.swift; sourceTree = "<group>"; };
 		4E648E432C3E8C6900A73619 /* CountriesCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountriesCode.swift; sourceTree = "<group>"; };
 		4E648E452C3E8DF900A73619 /* String + Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String + Ext.swift"; sourceTree = "<group>"; };
+		4E90A8762C3FCE640098D2F7 /* UserDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailsView.swift; sourceTree = "<group>"; };
+		4E90A8772C3FCE640098D2F7 /* VerificationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerificationView.swift; sourceTree = "<group>"; };
+		4E90A8782C3FCE640098D2F7 /* VerificationCodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerificationCodeView.swift; sourceTree = "<group>"; };
+		4E90A8792C3FCE640098D2F7 /* WalkthroughView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkthroughView.swift; sourceTree = "<group>"; };
+		4E90A87F2C3FCF190098D2F7 /* BuildingMaterialsFactory.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BuildingMaterialsFactory.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,7 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				4E648E252C3E85EC00A73619 /* HW7 */,
-				4E648E1E2C3E81BA00A73619 /* HW6 */,
+				4E90A87E2C3FCF190098D2F7 /* HW6 */,
 				4E648E182C3E7C1800A73619 /* HW5 */,
 				4E2426062C104DEF00FDCED4 /* ContentView.swift */,
 				4E648DAD2C3E773600A73619 /* Intents */,
@@ -247,15 +247,6 @@
 			path = HW5;
 			sourceTree = "<group>";
 		};
-		4E648E1E2C3E81BA00A73619 /* HW6 */ = {
-			isa = PBXGroup;
-			children = (
-				4E648E212C3E821200A73619 /* Building.playground */,
-			);
-			name = HW6;
-			path = ../../WBChatAppSUI/WBChatAppSUI/WBChatAppSUI/HW6;
-			sourceTree = "<group>";
-		};
 		4E648E252C3E85EC00A73619 /* HW7 */ = {
 			isa = PBXGroup;
 			children = (
@@ -264,22 +255,10 @@
 			path = HW7;
 			sourceTree = "<group>";
 		};
-		4E648E3A2C3E8C3300A73619 /* OnboardingViews */ = {
-			isa = PBXGroup;
-			children = (
-				4E648E3B2C3E8C3300A73619 /* UserDetailsView.swift */,
-				4E648E3C2C3E8C3300A73619 /* VerificationView.swift */,
-				4E648E3D2C3E8C3300A73619 /* VerificationCodeView.swift */,
-				4E648E3E2C3E8C3300A73619 /* WalkthroughView.swift */,
-			);
-			name = OnboardingViews;
-			path = ../../../WBChatAppSUI/WBChatAppSUI/WBChatAppSUI/View/OnboardingViews;
-			sourceTree = "<group>";
-		};
 		4E78C49F2C1095B70046C527 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				4E648E3A2C3E8C3300A73619 /* OnboardingViews */,
+				4E90A8752C3FCE640098D2F7 /* OnboardingViews */,
 				4E2426122C10562E00FDCED4 /* ContentView_TabView.swift */,
 				4E648DA02C3E758E00A73619 /* ProfileAccountView.swift */,
 			);
@@ -315,6 +294,25 @@
 				4E648DA62C3E75A300A73619 /* MoreScreen.swift */,
 			);
 			path = Screens;
+			sourceTree = "<group>";
+		};
+		4E90A8752C3FCE640098D2F7 /* OnboardingViews */ = {
+			isa = PBXGroup;
+			children = (
+				4E90A8762C3FCE640098D2F7 /* UserDetailsView.swift */,
+				4E90A8772C3FCE640098D2F7 /* VerificationView.swift */,
+				4E90A8782C3FCE640098D2F7 /* VerificationCodeView.swift */,
+				4E90A8792C3FCE640098D2F7 /* WalkthroughView.swift */,
+			);
+			path = OnboardingViews;
+			sourceTree = "<group>";
+		};
+		4E90A87E2C3FCF190098D2F7 /* HW6 */ = {
+			isa = PBXGroup;
+			children = (
+				4E90A87F2C3FCF190098D2F7 /* BuildingMaterialsFactory.playground */,
+			);
+			path = HW6;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -425,21 +423,21 @@
 				4E648E442C3E8C6900A73619 /* CountriesCode.swift in Sources */,
 				4E2426132C10562E00FDCED4 /* ContentView_TabView.swift in Sources */,
 				4E648DA92C3E75A300A73619 /* ContactsScreen.swift in Sources */,
+				4E90A87A2C3FCE640098D2F7 /* UserDetailsView.swift in Sources */,
 				4E648DB42C3E775500A73619 /* Router.swift in Sources */,
-				4E648E3F2C3E8C3300A73619 /* UserDetailsView.swift in Sources */,
 				4E648D982C3E720200A73619 /* StatefulButtonStyle.swift in Sources */,
 				4E648E282C3E85EC00A73619 /* StringIntepolationView.swift in Sources */,
+				4E90A87D2C3FCE640098D2F7 /* WalkthroughView.swift in Sources */,
 				4E648D992C3E720200A73619 /* StatefulTextStyle.swift in Sources */,
-				4E648E422C3E8C3300A73619 /* WalkthroughView.swift in Sources */,
 				4E648DAB2C3E75A300A73619 /* MoreScreen.swift in Sources */,
-				4E648E412C3E8C3300A73619 /* VerificationCodeView.swift in Sources */,
+				4E90A87C2C3FCE640098D2F7 /* VerificationCodeView.swift in Sources */,
 				4E648DA12C3E758E00A73619 /* ProfileAccountView.swift in Sources */,
 				4E648DAA2C3E75A300A73619 /* SearchBarView.swift in Sources */,
 				4E648DB12C3E773600A73619 /* Intents.intentdefinition in Sources */,
 				4E648D972C3E720200A73619 /* Resources.swift in Sources */,
 				4E2426052C104DEF00FDCED4 /* WBChatAppSUIApp.swift in Sources */,
 				4E648DA82C3E75A300A73619 /* ContactRow.swift in Sources */,
-				4E648E402C3E8C3300A73619 /* VerificationView.swift in Sources */,
+				4E90A87B2C3FCE640098D2F7 /* VerificationView.swift in Sources */,
 				4E648DAC2C3E75A300A73619 /* ChatsScreen.swift in Sources */,
 				4E648DB02C3E773600A73619 /* WalkthroughIntents.swift in Sources */,
 			);
