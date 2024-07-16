@@ -15,7 +15,9 @@ enum Tabs: Hashable {
     case more
 }
 
-final class Router: ObservableObject {
+protocol Service {}
+
+final class Router: ObservableObject, Service {
     
     static let shared: Router = .init()
     

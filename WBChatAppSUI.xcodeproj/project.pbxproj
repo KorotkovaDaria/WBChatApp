@@ -100,6 +100,7 @@
 		4E648E262C3E85EC00A73619 /* StringIntepolationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringIntepolationView.swift; sourceTree = "<group>"; };
 		4E648E432C3E8C6900A73619 /* CountriesCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountriesCode.swift; sourceTree = "<group>"; };
 		4E648E452C3E8DF900A73619 /* String + Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String + Ext.swift"; sourceTree = "<group>"; };
+		4E8995AA2C46641A0089AA7E /* UISystem */ = {isa = PBXFileReference; lastKnownFileType = text; name = UISystem; path = Modules/UISystem; sourceTree = SOURCE_ROOT; };
 		4E90A8762C3FCE640098D2F7 /* UserDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailsView.swift; sourceTree = "<group>"; };
 		4E90A8772C3FCE640098D2F7 /* VerificationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerificationView.swift; sourceTree = "<group>"; };
 		4E90A8782C3FCE640098D2F7 /* VerificationCodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerificationCodeView.swift; sourceTree = "<group>"; };
@@ -152,6 +153,7 @@
 		4E2426032C104DEF00FDCED4 /* WBChatAppSUI */ = {
 			isa = PBXGroup;
 			children = (
+				4E8995AA2C46641A0089AA7E /* UISystem */,
 				4E90A8802C3FCFB60098D2F7 /* HW12 */,
 				4E648E252C3E85EC00A73619 /* HW7 */,
 				4E90A87E2C3FCF190098D2F7 /* HW6 */,
