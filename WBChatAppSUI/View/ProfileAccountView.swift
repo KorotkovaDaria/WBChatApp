@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import UISystem
 
 struct ProfileAccountView: View {
     @Environment(\.dismiss) var dismiss
@@ -75,37 +76,5 @@ struct ProfileAccountView: View {
 struct ProfileAccountView_Previews: PreviewProvider {
     static var previews: some View {
         ProfileAccountView(contact: Contact(name: "Анна Иванова", isSrorying: true, isOnline: true, lastSeen: Date.now, avatar: nil, phoneNumber: "+7 999 999-99-99"))
-    }
-}
-
-struct ButtonMedia: View {
-    let label: String
-    var body: some View {
-        Button {
-            //do someting
-        } label: {
-            Image(label)
-        }
-        .buttonStyle(StatefulButtonStyle(size: CGSize(width: 72, height: 40), state: .borderNormal))
-    }
-}
-
-struct ProfileImageView: View {
-    let avatar: String?
-    
-    var body: some View {
-        Group {
-            if let avatar = avatar {
-                Image(avatar)
-                    .resizable()
-                    .aspectRatio(contentMode: .fill)
-                    .frame(width: 200, height: 200)
-                    .clipShape(Circle())
-            } else {
-                Image("Change Avatar")
-                    .resizable()
-                    .frame(width: 200, height: 200)
-            }
-        }
     }
 }

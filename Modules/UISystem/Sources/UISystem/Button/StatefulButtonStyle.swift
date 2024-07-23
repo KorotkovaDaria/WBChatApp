@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-enum StatesButton {
+public enum StatesButton {
     case normal
     case pressed
     case disabled
@@ -21,11 +21,16 @@ enum StatesButton {
     case borderDisabled
 }
 
-struct StatefulButtonStyle: ButtonStyle {
+public struct StatefulButtonStyle: ButtonStyle {
     var size: CGSize
     var state: StatesButton
     
-    func makeBody(configuration: Configuration) -> some View {
+    public init(size: CGSize, state: StatesButton) {
+        self.size = size
+        self.state = state
+    }
+    
+    public func makeBody(configuration: Configuration) -> some View {
         var backgroundColor: Color
         var foregroundColor: Color
         var borderColor: Color

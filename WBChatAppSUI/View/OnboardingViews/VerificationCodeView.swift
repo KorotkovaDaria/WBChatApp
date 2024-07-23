@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import UISystem
 
 struct Authorization {
     var number: String
@@ -78,7 +79,7 @@ struct VerificationCodeView: View {
                 
                 if showError {
                     Text("Неверный код. Попробуйте еще раз.")
-                        .foregroundColor(.red)
+                        .foregroundColor(Resources.Colors.AccentColor.danger)
                         .padding()
                 }
                 

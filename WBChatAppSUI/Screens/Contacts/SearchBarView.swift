@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import UISystem
 
 struct SearchBarView: View {
     @Binding var searchText: String

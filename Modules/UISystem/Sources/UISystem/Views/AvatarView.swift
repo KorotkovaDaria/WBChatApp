@@ -7,13 +7,20 @@
 
 import SwiftUI
 
-struct AvatarView: View {
+public struct AvatarView: View {
     var avatar: String?
     var name: String
     var isOnline: Bool
     var hasHistory: Bool
     
-    var body: some View {
+    public init(avatar: String? = nil, name: String, isOnline: Bool, hasHistory: Bool) {
+        self.avatar = avatar
+        self.name = name
+        self.isOnline = isOnline
+        self.hasHistory = hasHistory
+    }
+    
+    public var body: some View {
         ZStack(alignment: .center) {
             if avatar != nil {
                 Image(avatar ?? "")

@@ -7,6 +7,7 @@
 //
 
 import SwiftUI
+import UISystem
 
 extension UIApplication {
     func endEditing(_ force: Bool) {
@@ -179,7 +180,6 @@ struct CustomPicker: View {
         }
     }
 }
-
 
 struct VerificationView_Previews: PreviewProvider {
     static var previews: some View {

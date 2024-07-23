@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-enum Typography {
+public enum Typography {
     case neading1
     case neading2
     
@@ -22,10 +22,10 @@ enum Typography {
     case metadata3
 }
 
-struct StatefulTextStyle: ViewModifier {
+public struct StatefulTextStyle: ViewModifier {
     var typography: Typography
     
-    func body(content: Content) -> some View {
+    public func body(content: Content) -> some View {
         switch typography {
         case .neading1:
             return content
@@ -62,7 +62,7 @@ struct StatefulTextStyle: ViewModifier {
 }
 
 extension View {
-    func textStyle(with typography: Typography ) -> some View {
+    public func textStyle(with typography: Typography ) -> some View {
         modifier(StatefulTextStyle(typography: typography))
     }
 }
