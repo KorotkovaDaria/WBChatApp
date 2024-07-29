@@ -8,6 +8,8 @@
 import SwiftUI
 
 public struct AvatarView: View {
+    @StateObject private var imageLoader = ImageLoader()
+    
     var avatar: String?
     var name: String
     var isOnline: Bool
@@ -22,13 +24,24 @@ public struct AvatarView: View {
     
     public var body: some View {
         ZStack(alignment: .center) {
-            if avatar != nil {
-                Image(avatar ?? "")
-                    .resizable()
-                    .aspectRatio(contentMode: .fill)
-                    .frame(width: 48, height: 48)
-                    .cornerRadius(16)
-                    .padding(8)
+            if let avatarName = avatar {
+                if let image = imageLoader.image {
+                    image
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                        .frame(width: 48, height: 48)
+                        .cornerRadius(16)
+                        .padding(8)
+                } else {
+                    Rectangle()
+                        .foregroundColor(Color.gray)
+                        .frame(width: 48, height: 48)
+                        .cornerRadius(16)
+                        .padding(8)
+                        .onAppear {
+                            imageLoader.loadImage(from: avatarName)
+                        }
+                }
             } else  {
                 ZStack {
                     Rectangle()
