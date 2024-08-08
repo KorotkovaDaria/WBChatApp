@@ -16,6 +16,7 @@ struct ContentView_TabView: View {
         TabView(selection: $router.selectedTab) {
             ContactsScreen().tabItem { Label("Контакты", systemImage: Resources.ImageTitle.SystemImage.tabBarPerson) }.tag(Tabs.contacts)
             ChatsScreen().tabItem { Label("Чаты", systemImage: Resources.ImageTitle.SystemImage.tabBarChats) }.tag(Tabs.chats)
+            NewsScreen().tabItem { Label("Новости", systemImage: "newspaper") }.tag(Tabs.news)
             MoreScreen().tabItem { Label("Еще", systemImage: Resources.ImageTitle.SystemImage.tabBarMore) }.tag(Tabs.more)
         }
     }

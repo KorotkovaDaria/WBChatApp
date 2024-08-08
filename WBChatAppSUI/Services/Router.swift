@@ -13,6 +13,7 @@ enum Tabs: Hashable {
     case countries
     case emoji
     case more
+    case news
 }
 
 protocol Service {}
