@@ -6,11 +6,20 @@
 //
 
 import SwiftUI
+import ExyteChat
 
 struct ChatsScreen: View {
+    @State var messages: [Message] = []
+
     var body: some View {
-        Text("💬")
-            .font(Font.system(size: 200))
+        ChatView(messages: messages) { draft in
+            send(draft: draft)
+        }
+    }
+
+    func send(draft: DraftMessage) {
+        let newMessage = Message(id: UUID().uuidString, user: User(id: UUID().uuidString, name: "Ivan", avatarURL: nil, isCurrentUser: true), text: draft.text)
+        messages.append(newMessage)
     }
 }
 
