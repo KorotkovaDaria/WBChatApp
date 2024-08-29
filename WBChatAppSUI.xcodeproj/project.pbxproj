@@ -44,6 +44,7 @@
 		4E90A87B2C3FCE640098D2F7 /* VerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E90A8772C3FCE640098D2F7 /* VerificationView.swift */; };
 		4E90A87C2C3FCE640098D2F7 /* VerificationCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E90A8782C3FCE640098D2F7 /* VerificationCodeView.swift */; };
 		4E90A87D2C3FCE640098D2F7 /* WalkthroughView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E90A8792C3FCE640098D2F7 /* WalkthroughView.swift */; };
+		4ED4CA032C80B69100CD5105 /* ExyteChat in Frameworks */ = {isa = PBXBuildFile; productRef = 4ED4CA022C80B69100CD5105 /* ExyteChat */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,6 +124,7 @@
 			files = (
 				4E84C0982C620C4D00122D53 /* NewsAPI in Frameworks */,
 				4E8995B22C4692B40089AA7E /* UISystem in Frameworks */,
+				4ED4CA032C80B69100CD5105 /* ExyteChat in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,6 +371,7 @@
 			packageProductDependencies = (
 				4E8995B12C4692B40089AA7E /* UISystem */,
 				4E84C0972C620C4D00122D53 /* NewsAPI */,
+				4ED4CA022C80B69100CD5105 /* ExyteChat */,
 			);
 			productName = WBChatAppSUI;
 			productReference = 4E2426012C104DEF00FDCED4 /* WBChatAppSUI.app */;
@@ -421,6 +424,9 @@
 				Base,
 			);
 			mainGroup = 4E2425F82C104DEF00FDCED4;
+			packageReferences = (
+				4ED4CA012C80B69100CD5105 /* XCRemoteSwiftPackageReference "Chat" */,
+			);
 			productRefGroup = 4E2426022C104DEF00FDCED4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -763,6 +769,17 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		4ED4CA012C80B69100CD5105 /* XCRemoteSwiftPackageReference "Chat" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/exyte/Chat.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
 		4E84C0972C620C4D00122D53 /* NewsAPI */ = {
 			isa = XCSwiftPackageProductDependency;
@@ -775,6 +792,11 @@
 		4E8995B32C4692BA0089AA7E /* UISystem */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = UISystem;
+		};
+		4ED4CA022C80B69100CD5105 /* ExyteChat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4ED4CA012C80B69100CD5105 /* XCRemoteSwiftPackageReference "Chat" */;
+			productName = ExyteChat;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
